@@ -1,33 +1,85 @@
-.App {
-  text-align: center;
+.card-wrapper {
+     width: 40%;
+     margin: 20px auto;
+     padding: 20px;
+     background-color: rgb(245, 245, 245);
+     border-top-left-radius: 3px;
+     border-top-right-radius: 3px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.card-top-info {
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-name {
+     font-size: 12px;
+     font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.card-light-text {
+     font-size: 11px;
+     font-weight: 400;
+     color: gray;
+     margin-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title {
+     font-size: 15px;
+     font-weight: 400;
+     margin-bottom: 10px;
+     /* padding-left: 20px; */
+}
+
+.card-user-link {
+     color: lightcoral;
+     text-decoration: none;
+}
+
+.card-user-link:hover {
+     transition: 0.2s ease;
+     color: rgb(231, 101, 54);
+}
+
+.card-img {
+     width: 100%;
+}
+
+.card-bottom {
+     border-left: 1px solid lightgray;
+     border-right: 1px solid lightgray;
+     border-bottom: 1px solid lightgray;
+     border-bottom-left-radius: 3px;
+     border-bottom-right-radius: 3px;
+     margin-top: -5px;
+}
+
+.link-title {
+     font-size: 13px;
+     font-weight: 500;
+     padding-left: 20px;
+     padding-top: 20px;
+}
+
+.link-subtitle {
+     font-size: 13px;
+     font-weight: 400;
+     padding-left: 20px;
+     padding-bottom: 20px;
+}
+
+.card-icons {
+     display: flex;
+     align-items: center;
+     margin-top: 20px;
+}
+
+.card-icons-single {
+     padding-left: 25px;
+}
+
+.card-bottom-wrapper {
+     width: 90%;
+     margin-left: 10%;
 }
